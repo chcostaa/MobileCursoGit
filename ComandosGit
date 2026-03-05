@@ -1,0 +1,90 @@
+COMANDOS GIT
+==Fluxo comum de trabalho==
+git status
+git add .
+git commit -m "descrição da alteração"
+git push
+=======================================
+Criar um repositório local:
+git init
+
+Clonar um repositório existente:
+git clone <url-do-repositorio>
+
+Ver arquivos modificados ou não rastreados:
+git status
+
+Ver alterações ainda não adicionadas (unstaged):
+git diff
+
+Ver alterações já adicionadas ao stage:
+git diff --cached
+
+Ver diferenças entre dois commits:
+git diff <commit1> <commit2>
+
+Ver histórico de alterações de um arquivo:
+git blame <arquivo>
+
+Ver detalhes de um commit específico:
+git show <commit>
+
+Listar todas as branches:
+git branch
+
+Criar uma nova branch:
+git branch <nome-da-branch>
+
+Trocar para outra branch:
+git checkout <nome-da-branch>
+
+Forma mais moderna para trocar de branch:
+git switch <nome-da-branch>
+
+Criar uma nova branch e já trocar para ela:
+git checkout -b <nome-da-branch>
+
+Ou usando o comando moderno:
+git switch -c <nome-da-branch>
+
+Deletar uma branch:
+git branch -d <nome-da-branch>
+
+Fazer merge de uma branch na branch atual:
+git merge <nome-da-branch>
+
+Criar uma tag:
+git tag <nome-da-tag>
+
+Adicionar um arquivo ao stage:
+git add <arquivo>
+
+Adicionar todos os arquivos modificados:
+git add .
+
+Criar um commit com mensagem:
+git commit -m "mensagem do commit"
+
+Adicionar e commitar arquivos já rastreados de uma vez:
+git commit -am "mensagem do commit"
+
+Remover um arquivo da área de stage:
+git reset <arquivo>
+
+Restaurar um arquivo modificado:
+git restore <arquivo>
+
+Voltar o repositório para o último commit (cuidado, remove alterações locais):
+git reset --hard
+
+Buscar alterações do repositório remoto:
+git fetch
+
+Atualizar o repositório local (fetch + merge):
+git pull
+
+Atualizar usando rebase:
+git pull --rebase
+
+Enviar commits para o repositório remoto:
+git push
