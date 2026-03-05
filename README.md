@@ -8,5 +8,3 @@ Em seguida, o curso aborda a instalação e configuração inicial do Git, além
 Outro ponto importante do curso é a integração com o GitHub, onde os repositórios podem ser armazenados remotamente. É demonstrado como criar repositórios no GitHub, conectar o projeto local ao remoto utilizando chaves SSH, enviar alterações (push) e clonar projetos existentes.
 
 O curso também explica conceitos essenciais como branches (ramificações), que permitem trabalhar em diferentes versões do projeto, além das operações de merge e rebase, utilizadas para unir alterações feitas em diferentes branches. Por fim, são apresentados recursos extras como .gitignore, tags, stash e revert, que ajudam a organizar, versionar e recuperar versões do projeto de maneira eficiente.
-
-De forma geral, o curso fornece uma base sólida para iniciantes compreenderem e utilizarem o Git e o GitHub no desenvolvimento de software e no trabalho colaborativo.
